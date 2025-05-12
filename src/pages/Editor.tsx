@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import ReactQuill from "react-quill";
-import { db } from "../Firebase/firebase";
+import { db } from "../firebase/firebase";
 import { ref, onValue, set, update, remove } from "firebase/database";
 import debounce from "lodash.debounce";
 import "react-quill/dist/quill.snow.css";
