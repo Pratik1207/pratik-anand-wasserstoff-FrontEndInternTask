@@ -29,7 +29,7 @@ const SimpleLoginPage = () => {
             type="text"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
-            placeholder="e.g. Anand"
+            placeholder="Enter Name"
             className="border px-3 py-2 w-full rounded mb-4"
           />
 
